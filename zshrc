@@ -176,3 +176,5 @@ for dir in $pathdirs; do
 	fi
 done
 
+# Reset LS_COLORS
+eval `dircolors ~/.dir_colors`
